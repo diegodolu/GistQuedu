@@ -25,7 +25,7 @@ Ruta: http://localhost:3000/api/user
 
 ------------------------ Crear curso ------------------------
 
-http://localhost:3000/api/user/course/new
+Ruta: http://localhost:3000/api/user/course/new
 
 {
   "userId": "670c33d66dd32107b49b4035",
@@ -71,3 +71,252 @@ http://localhost:3000/api/user/course/new
   "userId": "670c34506dd32107b49b4039",
   "courseName": "Programación Web"
 }
+
+
+
+
+------------------------ Crear quedu ------------------------
+
+Ruta: http://localhost:3000/api/user/course/quedu/new
+
+
+{
+  "userId": "670c33d66dd32107b49b4035",
+  "courseName": "Introducción a MongoDB",
+  "quedus": [
+    {
+      "name": "Quedu 1",
+      "successPercentaje": 60,
+      "attempt": 1,
+      "solved": true,
+      "questions": [
+        {
+          "question": "¿Qué es MongoDB?",
+          "feedback": "MongoDB es una base de datos NoSQL que utiliza documentos JSON.",
+          "answers": [
+            { "answer": "Es una base de datos NoSQL", "correct": true },
+            { "answer": "Es una base de datos relacional", "correct": false },
+            { "answer": "Es un motor de búsqueda", "correct": false },
+            { "answer": "Permite el almacenamiento de datos en documentos JSON", "correct": true },
+            { "answer": "MongoDB es una herramienta de visualización", "correct": false }
+          ]
+        },
+        {
+          "question": "¿Qué es BSON?",
+          "feedback": "BSON es el formato binario de JSON utilizado por MongoDB.",
+          "answers": [
+            { "answer": "Binary JSON", "correct": true },
+            { "answer": "Big Structured Objects", "correct": false },
+            { "answer": "Es un formato binario de documentos JSON", "correct": true },
+            { "answer": "Es una extensión de JSON", "correct": true },
+            { "answer": "Es un formato de texto", "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quedu 2",
+      "successPercentaje": 80,
+      "attempt": 1,
+      "solved": true,
+      "questions": [
+        {
+          "question": "¿Cómo se almacena un documento en MongoDB?",
+          "feedback": "InsertOne permite almacenar un único documento.",
+          "answers": [
+            { "answer": "insertOne", "correct": true },
+            { "answer": "insertDocument", "correct": false },
+            { "answer": "addDocument", "correct": false },
+            { "answer": "insertMany", "correct": true },
+            { "answer": "insertJSON", "correct": false }
+          ]
+        },
+        {
+          "question": "¿Qué significa el comando find()?",
+          "feedback": "Find permite consultar documentos en una colección.",
+          "answers": [
+            { "answer": "Consultar documentos", "correct": true },
+            { "answer": "Insertar documentos", "correct": false },
+            { "answer": "Eliminar documentos", "correct": false },
+            { "answer": "Actualizar documentos", "correct": false },
+            { "answer": "Buscar documentos duplicados", "correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+{
+  "userId": "670c344b6dd32107b49b4037",
+  "courseName": "Introducción a MongoDB",
+  "quedus": [
+    {
+      "name": "Quedu 1",
+      "successPercentaje": 100,
+      "attempt": 1,
+      "solved": true,
+      "questions": [
+        {
+          "question": "¿Qué es MongoDB?",
+          "feedback": "MongoDB es una base de datos NoSQL que utiliza documentos JSON.",
+          "answers": [
+            { "answer": "Es una base de datos NoSQL", "correct": true },
+            { "answer": "Es una base de datos relacional", "correct": false },
+            { "answer": "Es un motor de búsqueda", "correct": false },
+            { "answer": "Permite el almacenamiento de datos en documentos JSON", "correct": true },
+            { "answer": "MongoDB es una herramienta de visualización", "correct": false }
+          ]
+        },
+        {
+          "question": "¿Qué es BSON?",
+          "feedback": "BSON es el formato binario de JSON utilizado por MongoDB.",
+          "answers": [
+            { "answer": "Binary JSON", "correct": true },
+            { "answer": "Big Structured Objects", "correct": false },
+            { "answer": "Es un formato binario de documentos JSON", "correct": true },
+            { "answer": "Es una extensión de JSON", "correct": true },
+            { "answer": "Es un formato de texto", "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quedu 2",
+      "successPercentaje": 20,
+      "attempt": 1,
+      "solved": true,
+      "questions": [
+        {
+          "question": "¿Cómo se almacena un documento en MongoDB?",
+          "feedback": "InsertOne permite almacenar un único documento.",
+          "answers": [
+            { "answer": "insertOne", "correct": true },
+            { "answer": "insertDocument", "correct": false },
+            { "answer": "addDocument", "correct": false },
+            { "answer": "insertMany", "correct": true },
+            { "answer": "insertJSON", "correct": false }
+          ]
+        },
+        {
+          "question": "¿Qué significa el comando find()?",
+          "feedback": "Find permite consultar documentos en una colección.",
+          "answers": [
+            { "answer": "Consultar documentos", "correct": true },
+            { "answer": "Insertar documentos", "correct": false },
+            { "answer": "Eliminar documentos", "correct": false },
+            { "answer": "Actualizar documentos", "correct": false },
+            { "answer": "Buscar documentos duplicados", "correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+{
+  "userId": "670c34506dd32107b49b4039",
+  "courseName": "Introducción a MongoDB",
+  "quedus": [
+    {
+      "name": "Quedu 1",
+      "successPercentaje": 100,
+      "attempt": 1,
+      "solved": true,
+      "questions": [
+        {
+          "question": "¿Qué es MongoDB?",
+          "feedback": "MongoDB es una base de datos NoSQL que utiliza documentos JSON.",
+          "answers": [
+            { "answer": "Es una base de datos NoSQL", "correct": true },
+            { "answer": "Es una base de datos relacional", "correct": false },
+            { "answer": "Es un motor de búsqueda", "correct": false },
+            { "answer": "Permite el almacenamiento de datos en documentos JSON", "correct": true },
+            { "answer": "MongoDB es una herramienta de visualización", "correct": false }
+          ]
+        },
+        {
+          "question": "¿Qué es BSON?",
+          "feedback": "BSON es el formato binario de JSON utilizado por MongoDB.",
+          "answers": [
+            { "answer": "Binary JSON", "correct": true },
+            { "answer": "Big Structured Objects", "correct": false },
+            { "answer": "Es un formato binario de documentos JSON", "correct": true },
+            { "answer": "Es una extensión de JSON", "correct": true },
+            { "answer": "Es un formato de texto", "correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quedu 2",
+      "successPercentaje": 100,
+      "attempt": 1,
+      "solved": true,
+      "questions": [
+        {
+          "question": "¿Cómo se almacena un documento en MongoDB?",
+          "feedback": "InsertOne permite almacenar un único documento.",
+          "answers": [
+            { "answer": "insertOne", "correct": true },
+            { "answer": "insertDocument", "correct": false },
+            { "answer": "addDocument", "correct": false },
+            { "answer": "insertMany", "correct": true },
+            { "answer": "insertJSON", "correct": false }
+          ]
+        },
+        {
+          "question": "¿Qué significa el comando find()?",
+          "feedback": "Find permite consultar documentos en una colección.",
+          "answers": [
+            { "answer": "Consultar documentos", "correct": true },
+            { "answer": "Insertar documentos", "correct": false },
+            { "answer": "Eliminar documentos", "correct": false },
+            { "answer": "Actualizar documentos", "correct": false },
+            { "answer": "Buscar documentos duplicados", "correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+---------------------------------- Crear comunidades ----------------------------------
+
+Ruta: http://localhost:3000/api/community/new
+
+
+{
+    "name": "Los salvajes de Mongo",
+    "numberOfQuedus": 0,
+    "image": "https://cdn-1.webcatalog.io/catalog/dev-community/dev-community-icon-filled-256.png?v=1714774125109"
+}
+
+
+{
+    "name": "Los WEBeros",
+    "numberOfQuedus": 0,
+    "image": "https://cdn-1.webcatalog.io/catalog/dev-community/dev-community-icon-filled-256.png?v=1714774125109"
+}
+
+
+
+
+
+
+
+---------------------------------- Vincular usuarios a comunidad ----------------------------------
+
+
