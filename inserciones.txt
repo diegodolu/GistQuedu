@@ -1,0 +1,73 @@
+-------------------- Crear usuario --------------------
+
+Ruta: http://localhost:3000/api/user
+
+
+{
+	"username" : "diego",
+    "password": "12345",
+    "email": "diego@email.com"
+}
+
+{
+	"username" : "willian",
+    "password": "12345",
+    "email": "willian@email.com"
+}
+
+{
+	"username" : "gabriel",
+    "password": "12345",
+    "email": "gabriel@email.com"
+}
+
+
+
+------------------------ Crear curso ------------------------
+
+http://localhost:3000/api/user/course/new
+
+{
+  "userId": "670c33d66dd32107b49b4035",
+  "courseName": "Introducción a MongoDB"
+}
+
+{
+  "userId": "670c344b6dd32107b49b4037",
+  "courseName": "Introducción a MongoDB"
+}
+
+{
+  "userId": "670c34506dd32107b49b4039",
+  "courseName": "Introducción a MongoDB"
+}
+
+{
+  "userId": "670c33d66dd32107b49b4035",
+  "courseName": "Programación Móvil"
+}
+
+{
+  "userId": "670c344b6dd32107b49b4037",
+  "courseName": "Programación Móvil"
+}
+
+{
+  "userId": "670c34506dd32107b49b4039",
+  "courseName": "Programación Móvil"
+}
+
+{
+  "userId": "670c33d66dd32107b49b4035",
+  "courseName": "Programación Web"
+}
+
+{
+  "userId": "670c344b6dd32107b49b4037",
+  "courseName": "Programación Web"
+}
+
+{
+  "userId": "670c34506dd32107b49b4039",
+  "courseName": "Programación Web"
+}
