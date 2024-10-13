@@ -319,4 +319,46 @@ Ruta: http://localhost:3000/api/community/new
 
 ---------------------------------- Vincular usuarios a comunidad ----------------------------------
 
+Ruta: http://localhost:3000/api/user/subscribeTo
+
+
+{
+    "userId": "670c344b6dd32107b49b4037",
+    "communityId": "670c4094c2d73a68d75c4796"
+}
+
+{
+    "userId": "670c344b6dd32107b49b4037",
+    "communityId": "670c40aac2d73a68d75c4798"
+}
+
+{
+    "userId": "670c34506dd32107b49b4039",
+    "communityId": "670c4094c2d73a68d75c4796"
+}
+
+
+{
+    "userId": "670c34506dd32107b49b4039",
+    "communityId": "670c40aac2d73a68d75c4798"
+}
+
+
+
+
+
+
+
+---------------------------------- Compartir Quedu ----------------------------------
+
+Ruta: http://localhost:3000/api/user/shareQuedu
+
+
+{
+    "userId": "670c34506dd32107b49b4039",
+	"personalQueduId": "670c3dfd26564995c8a8fc31",
+    "communityId": "670c4094c2d73a68d75c4796"
+}
+
+
 
