@@ -362,3 +362,18 @@ Ruta: http://localhost:3000/api/user/shareQuedu
 
 
 
+---------------------------------- Crear Ranking ----------------------------------
+
+Ruta: http://localhost:3000/api/ranking/new
+
+{
+    "month": "Octubre",
+    "ranking": {
+        "topContributors": [
+            "670c34506dd32107b49b4039", "670c344b6dd32107b49b4037", "670c33d66dd32107b49b4035"
+        ],
+        "topSolvers": [
+            "670c344b6dd32107b49b4037", "670c33d66dd32107b49b4035", "670c34506dd32107b49b4039"
+        ]
+    }
+}
